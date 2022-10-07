@@ -82,7 +82,7 @@ public class Basics {
          *    (Relevant reading: 1.8.2. for Loops)
          */
 
-        for (int i = 10; i <= 0; i--) {
+        for (int i = 10; i >= 0; i--) {
             System.out.println("Current count: " + i);
         }
 
